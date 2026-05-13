@@ -1,0 +1,127 @@
+Projektauftrag Systemprojektierung: Smartes Energiemanagement 
+Ausgangslage 
+Ein Einfamilienhaus soll mit einem intelligenten Energiemanagementsystem ausgestattet 
+werden. Ziel ist es, den Energieverbrauch zu optimieren, den Eigenverbrauch lokal erzeugter 
+Energie (z. B. Photovoltaik) zu erhöhen und gleichzeitig den Komfort für die Bewohner si
+cherzustellen. 
+Im heutigen Zustand erfolgt die Nutzung der Energie weitgehend unkoordiniert. Energief
+lüsse zwischen Erzeugung, Speicherung und Verbrauch werden nicht aktiv gesteuert. 
+Dadurch entstehen ineffiziente Nutzung, unnötige Kosten sowie Lastspitzen. Das geplante 
+System soll verschiedene technische Komponenten miteinander vernetzen und koordinieren. 
+Dabei sind insbesondere folgende Systemelemente zu berücksichtigen: 
+Energiequellen: Photovoltaikanlage, Stromnetz 
+Energiespeicher: Batteriespeicher, optional auch mobile Speicher wie Elektrofahrzeuge 
+Verbraucher / Lasten: Haushaltsgeräte, Wärmepumpe, Ladeeinrichtungen 
+Sensorik und Datenerfassung: Erfassung von Energieflüssen, Zuständen und Verbrauchs
+daten 
+Steuerungs- und Regelungseinheit: zentrale Logik zur Optimierung und Koordination 
+Benutzerinteraktion: z. B. App oder Anzeige zur Information und Steuerung 
+Auftrag 
+Bearbeiten Sie die Entwicklung dieses Systems nach den Prinzipien des Systems Enginee
+ring unter Anwendung der Arcadia-Methode. Erstellen Sie ein konsistentes, nachvollziehba
+res Systemmodell sowie die zugehörigen Projektdokumente. 
+Ihre Arbeit umfasst folgende Elemente: 
+1. Lastenheft (Auftraggeber-Sicht) 
+Beschreiben Sie die Anforderungen, Ziele und Rahmenbedingungen des Systems. 
+2. Pflichtenheft (Auftragnehmer-Sicht) 
+Entwickeln Sie ein technisches Lösungskonzept zur Umsetzung der Anforderungen. Be
+rücksichtigen Sie auch die Risiken in der frühen Projektphase und die Stakeholderana
+lyse. 
+3. Systemmodellierung gemäss Arcadia 
+Modellieren Sie das System auf folgenden Ebenen (Hinweis: Die Ebene EPBS End Pro
+duct Breakdown Structure wird bewusst weggelassen): 
+• Operational Analysis (OA) 
+• System Analysis (SA) 
+• Logical Architecture (LA) 
+• Physical Architecture (PA) 
+Setzen Sie Ihr eigens entwickeltes Konfigurations-/Anforderungsmanagement-Tool ein 
+und weisen Sie dies in der Arbeit beispielhaft aus. 
+1 
+René Thommen, Gezim Gjoklaj / V2 - 28.04.2026 
+Hinweise und erwartende Inhalte zu den einzelnen System-Ebenen: 
+A. Operational Analysis (OA) 
+Ziel: Verständnis der Nutzung und des Kontexts (Problemraum)  
+Fokus: Was passiert in der realen Welt – unabhängig von der technischen Lösung 
+Die Studierenden analysieren die reale Nutzungssituation des Systems und modellieren: 
+• Kurzbeschreibung Stakeholder / Akteure: Bewohner, Energieversorger, Wartung, ex
+terne Systeme, weitere Akteure 
+• Operational Entities & Actors 
+• Missions / Ziele: z. B. „Energie effizient nutzen“, „Komfort sicherstellen“, weitere 
+• Operational Activities: Energie erfassen, steuern, informieren 
+• Beschreibung von drei Szenarien (Use Cases): z. B. „Bewohner kommt nach Hause“, 
+„PV produziert Überschuss“ 
+• Interaktionen zwischen Akteuren 
+• Beschreibung Umfeld / Systemkontext 
+B. System Analysis (SA) 
+Ziel: Definition des Systems („Was soll das System leisten?“) 
+Fokus: Übersetzung der Bedürfnisse in Systemanforderungen 
+Was sollen die Studierenden erarbeiten? 
+• Externe Akteure / Systeme festlegen und beschreiben 
+• Systemabgrenzung inkl. Skizze erstellen 
+• Systemfunktionen definieren: Überwachen, Steuern, Optimieren, Informieren 
+• Hauptfunktionen beschreiben: Wie arbeiten die Systemfunktionen zusammen? 
+• System Exchanges: Datenflüsse (Sensoren, App, Geräte) 
+• Nichtfunktionale Anforderungen beschreiben: z. B. Sicherheit, Zuverlässigkeit 
+C. Logical Architecture (LA) 
+Ziel: Struktur des Systems (lösungsneutral, logisch) 
+Fokus: Wie ist das System logisch aufgebaut – unabhängig von konkreter Technik 
+Was sollen die Studierenden erarbeiten? 
+• Logische Komponenten: z. B. Energiemanager, Sensorik, Steuerung, UI 
+• Zuordnung Funktionen → Komponenten 
+• Datenflüsse zwischen Komponenten 
+• Schnittstellen 
+• Interne Struktur des Systems 
+2 
+René Thommen, Gezim Gjoklaj / V2 - 28.04.2026 
+D. Physical Architecture (PA) 
+Ziel: Umsetzung in reale Komponenten (Lösungsraum) 
+Fokus: Wie wird die logische Architektur konkret umgesetzt 
+Was sollen die Studierenden erarbeiten? 
+• Physische Komponenten 
+• Sensoren, Steuergerät, Server, App, Batterie etc. 
+• Zuordnung logische → physische Elemente 
+• Physische Schnittstellen: Netzwerk, Bus, Kabel, Funk 
+• Deployment / Verteilung: lokal vs. Cloud 
+4. Risikomanagement 
+Identifizieren und bewerten Sie wesentliche Projektrisiken und definieren Sie geeignete 
+Massnahmen. 
+Rahmenbedingungen 
+• Die Arbeit erfolgt in Teams von zwei Studierenden. 
+• Es ist ein durchgängiges und konsistentes Systemmodell zu erstellen (Traceability zwi
+schen den Ebenen). 
+• Das System ist realitätsnah und mit einem didaktisch sinnvollen Detaillierungsgrad zu be
+arbeiten (kein übermässiger Detailgrad). 
+• Es sind sowohl funktionale als auch nichtfunktionale Anforderungen zu berücksichtigen. 
+• Schnittstellen zwischen Systemkomponenten sind explizit zu beschreiben. 
+• Annahmen sind transparent zu dokumentieren. 
+Abgrenzung 
+• Die detaillierte Auslegung einzelner Hardwarekomponenten ist nicht erforderlich. 
+• Fokus liegt auf der Systemstruktur und dem Zusammenspiel der Komponenten, nicht auf 
+der Implementierung. 
+• Wirtschaftliche Betrachtungen sind optional und nicht Bestandteil der Bewertung. 
+Projektauftrag (eine Note) 
+Die folgenden Ergebnisse sind als zusammenfassendes PDF-Dokument einzureichen: 
+• Lastenheft 
+• Pflichtenheft 
+• Arcadia-Modell (OA, SA, LA, PA) 
+• Dokumentation der Risiken 
+• Reflexion (Lessions learned) 
+3 
+René Thommen, Gezim Gjoklaj / V2 - 28.04.2026 
+Präsentation / Fachgespräch (eine Note) 
+Präsentation: 12 Minuten, Fachgespräch: 12 Minuten 
+Die Präsentation soll insbesondere folgende Punkte abdecken: 
+• Systemverständnis und Problemabgrenzung 
+• Aufbau der Systemarchitektur 
+• Zentrale Designentscheidungen 
+• Risiken und deren Umgang 
+• Lessions learned 
+Bewertungskriterien (gemäss Bewertungsraster) 
+• Formale Aspekte der schriftlichen Arbeit 
+• Nachvollziehbarkeit und Struktur der Lösung 
+• Qualität der Anforderungen und Architektur 
+• Verständnis des Systems Engineering Ansatzes 
+• Reflexion / Lessions learned 
+• Qualität der Präsentation / Kompetenz im Fachgespräch 
+4 
+René Thommen, Gezim Gjoklaj / V2 - 28.04.2026 
